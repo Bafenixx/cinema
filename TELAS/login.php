@@ -6,7 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body>
+<body class="body_login">
 <img src="../imagens/logo.png" alt="logo da empresa" width="200">
     <h1><a href="../index.php">TicketCine</a></h1><br>
     <h3>Entre com sua conta e compre ingressos!</h3><br>

@@ -6,43 +6,64 @@
     <title>Ticketcine</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<body class="body_inicial">
+<nav> <!-- Cabeçalho -->
+  <div class="topo d-flex justify-content">
+    <a href="index.php"><img src="imagens/logo_menor.png" alt="Logo do nosso cinema" width="150px"></a>
+    <div class="botoes_cima">
+        <a href="filmes.php">Filmes</a>
+        <a href="ingressos.php">Ingressos</a>
+        <a href="telas/cadastro.php">Cadastro</a>
+        <a href="telas/login.php">Login</a>
     </div>
   </div>
 </nav>
+
+<!-- Corpo do site -->
+<div class="cartaz_inicio" style="text-align: center;">
+  <img src="imagens/capa_vingadores.png" alt="Foto dos vingadores">
+</div>
+<div class="filmes">
+  <div class="container md-2">
+    <img src="imagens/o-drama-filme-1.jpg" alt="Cartaz do filme O Drama" width="250px">
+        <h1>O Drama</h1>
+  </div>
+  <div class="container md-2">
+    <img src="imagens/diabo_prada.webp" alt="Cartaz do filme O Diabo Veste Prada 2" width="250px">
+        <h1>O Diabo <br> Veste Prada 2</h1>
+  </div>
+  <div class="container md-2">
+    <img src="imagens/estranhos.webp" alt="Cartaz do filme Os Estranhos" width="250px">
+        <h1>Os Estranhos <br> </h1><h3>capítulo final</h3>
+  </div>
+  <div class="container md-2">
+    <img src="imagens/lua_nova.webp" alt="Cartaz do filme A Saga Crepúsculo: Lua Nova" width="250px">
+        <h1>Crepúsculo: <br></h1><h3>Lua Nova</h3>
+  </div>
+  <div class="container md-2">
+    <img src="imagens/super-mario.jpg" alt="Cartaz do filme Super Mário" width="270px">
+        <h1>Super Mário</h1>
+  </div>
+  <div class="container md-2">
+    <img src="imagens/michael.jpg" alt="Cartaz do filme Michel" width="232px">
+    <h1>Michael</h1>
+  </div>
+</div> 
+
+<!-- FOOTER -->
+ <footer>
+  <div class="face d-flex justify-content">
+      <img src="imagens/icone_facebook.png" alt="Ícone do facebook">
+      <h4>/TicketCine</h4> 
+      <img src="imagens/icone_x.png" alt="Ícone do x (antigo twitter)">
+      <h4>/TicketCine</h4> 
+      <img src="imagens/icone_instagram.png" alt="Ícone do instagram">
+      <h4>/TicketCine</h4> 
+      <img src="imagens/icone_youtube.png" alt="Ícone do youtube">
+      <h4>/TicketCine</h4> 
+  </div>
+ </footer>
 </body>
 </html>
