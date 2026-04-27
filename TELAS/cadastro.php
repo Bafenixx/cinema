@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticketcine</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body class="body_cadastro">
-    <img src="../imagens/logo.png" alt="logo da empresa" width="200">
-    <h1><a href="../index.php">TicketCine</a></h1>
-    <h3>Crie sua conta e compre ingressos!</h3>
-    <p>Já é cadastrado? <a href="login.php">Entrar</a>.</p>
-    <input type="text" name="nome" id="nome" placeholder="*Nome"><br><br>
-    <input type="number" name="cpf" id="cpf" placeholder="*CPF" max="11"><br><br>
-    <input type="tel" name="celular" id="celular" placeholder="*Celular"><br><br>
-    <input type="email" name="email" id="email" placeholder="*E-mail"><br><br>
-    <input type="password" name="senha" id="senha" placeholder="*Senha"><br>
+  <nav> <!-- Cabeçalho -->
+    <div class="topo d-flex justify-content">
+      <a href="../index.php"><img src="../imagens/logo_menor.png" alt="Logo do nosso cinema" width="150px"></a>
+      <div class="botoes_cima">
+        <a href="filmes.php">Filmes</a>
+        <a href="cadastro.php">Cadastro</a>
+        <a href="login.php">Login</a>
+      </div>
+    </div>
+  </nav>
 
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Precisa de ajuda com a senha?
-                 </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Sua senha precisa atender aos seguintes critérios: <br>
-                    &#9989 <!-- Emoji do certo--> Mínimo uma letra minúscula <br>
-                    &#9989 Mínimo uma letra maiúscula <br>
-                    &#9989 Mínimo um número <br>
-                    &#9989 Mínimo de 8 caracteres
-            </div>
-        </div>
-    </div><br><br>
+  <!-- Corpo do site -->
+  
+  <div class="login-container">
+    <img src="../imagens/ingresso.png" class="bg">
+  </div>
+  <h2 class="texto_cadastro">CADASTRO</h2>
+  <form class="form_cadastro" method="POST">
+    <label>Nome Completo: </label><br>
+    <input type="nomeCadastrado" name="nomeCadastrado" id="nomeCadastrado"/><br><br>
+    <label>CPF: </label><br>
+    <input type="cpf" name="cpf" id="cpf"/><br><br><br><br><br><br>
+    <label>E-mail: </label><br>
+    <input type="email" name="emailCadastrado" id="emailCadastrado" style="background-color: rgb(229, 245, 255);"/><br><br>
+    <label>Senha: </label><br>
+    <input type="senha" name="senhaCadastrada" id="senhaCadastrada" style="background-color: rgb(229, 245, 255);"/><br><br>
+    <button type="submit">Salvar</button><br>
+    <p>Já é cadastrado? <a href="login.php">Login</a></p>
+  </form>
 
-    <input type="password" name="senha" id="senha" placeholder="*Senha"><br>
+  <!-- FOOTER -->
+  <footer>
+    <!-- Propagandas -->
+    <div class="propaganda d-flex justify-content">
+      <img src="../imagens/propaganda_1.png" class="propagandas" alt="1ª Propaganda" style="margin-left: 230px;">
+      <img src="../imagens/propaganda_2.png" class="propagandas" alt="2ª Propaganda" style="margin-left: 230px;">
+      <img src="../imagens/propaganda_3.png" class="propagandas" alt="3ª Propaganda" style="margin-left: 230px;">
+    </div><br><br>  
 
-    <button>Continuar</button><br>
-    <p>Já é cadastrado? <a href="login.php">Entrar</a>.</p>
+    <img src="../imagens/propaganda_4.png" class="propagandas" alt="4ª Propaganda" style="margin-left: 600px;">
+    
+    <div class="face d-flex justify-content">
+
+      <img src="../imagens/icone_facebook.png" class="icones" alt="Ícone do facebook" style="margin-left: 230px;">
+      <h4>/TicketCine</h4>
+      <img src="../imagens/icone_x.png" class="icones" alt="Ícone do x (antigo twitter)" style="margin-left: 230px;">
+      <h4>/TicketCine</h4>
+      <img src="../imagens/icone_instagram.png" class="icones" alt="Ícone do instagram" style="margin-left: 230px;">
+      <h4>/TicketCine</h4>
+      <img src="../imagens/icone_youtube.png" class="icones" alt="Ícone do youtube" style="margin-left: 230px;">
+      <h4>/TicketCine</h4>
+    </div>
+  </footer>
 </body>
+
 </html>
