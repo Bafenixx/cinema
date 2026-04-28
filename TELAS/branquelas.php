@@ -27,18 +27,18 @@
 
   <!-- Corpo do site -->
 
-  <img src="../imagens/o-drama-filme-1.jpg" class="filmes" alt="Cartaz do filme O Drama" width="500px"> 
+  <img src="../imagens/as_branquelas.jpg" class="filmes" alt="Cartaz do filme As Branquelas" width="500px"> 
   
   <div class="card bg-transparent" style="width: 31rem;">
   <div class="card-body">
-    <p class="card-text">Em O Drama, apaixonados e no meio dos últimos preparativos para o grande dia do casamento,
-    o casal entra em conflito ao descobrirem segredos que jamais poderiam imaginar.
-    A imprevisibilidade do acontecimento coloca em risco toda a confiança e amor dos dois,
-    trazendo ao longa uma nova perspectiva
-    sobre o romantismo.
-    Intrigados com a situação, eles passam a se perguntar se realmente conhecem um ao outro
-    e precisam refletir sobre o futuro dos dois.<br><br>
-    Classificação indicativa 16 Anos. Contém conteúdo sexual, drogas, temas sensíveis.</p>
+    <p class="card-text">Dois irmãos agentes do FBI, Marcus e Kevin Copeland, 
+acidentalmente evitam que bandidos sejam presos em uma apreensão de drogas.
+ Como castigo, eles são forçados a escoltar um par de socialites nos Hamptons.
+ Quando as meninas descobrem o plano da agência, elas se recusam a ir. Sem opções, Marcus e Kevin, dois homens negros,
+ decidem fingir que são as irmãs e se transformam em um par de loiras
+ <br><br>
+ Verificar classificação indicativa.
+</p>
   </div>
 </div>
 

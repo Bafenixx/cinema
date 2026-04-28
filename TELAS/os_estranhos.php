@@ -27,18 +27,15 @@
 
   <!-- Corpo do site -->
 
-  <img src="../imagens/o-drama-filme-1.jpg" class="filmes" alt="Cartaz do filme O Drama" width="500px"> 
+  <img src="../imagens/estranhos.webp" class="filmes" alt="Cartaz do filme Os Estranhos" width="500px"> 
   
   <div class="card bg-transparent" style="width: 31rem;">
   <div class="card-body">
-    <p class="card-text">Em O Drama, apaixonados e no meio dos últimos preparativos para o grande dia do casamento,
-    o casal entra em conflito ao descobrirem segredos que jamais poderiam imaginar.
-    A imprevisibilidade do acontecimento coloca em risco toda a confiança e amor dos dois,
-    trazendo ao longa uma nova perspectiva
-    sobre o romantismo.
-    Intrigados com a situação, eles passam a se perguntar se realmente conhecem um ao outro
-    e precisam refletir sobre o futuro dos dois.<br><br>
-    Classificação indicativa 16 Anos. Contém conteúdo sexual, drogas, temas sensíveis.</p>
+    <p class="card-text">Após os eventos traumáticos dos capítulos anteriores, Maya se vê novamente perseguida pelos três assassinos mascarados. 
+A trama promete revelar mais sobre a origem e o modus operandi dos criminosos, 
+enquanto Maya tenta superar o trauma e lutar por sua vida. 
+ <br><br>
+ Classificação indicativa 18 Anos. Contém drogas lícitas, linguagem imprópria, medo.</p>
   </div>
 </div>
 

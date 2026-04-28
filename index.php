@@ -32,27 +32,27 @@
 
   <div class="filmes">
     <div class="container md-2">
-      <img src="imagens/extraordinario.jpg" alt="Cartaz do filme Extraordinário" width="250px">
+      <a href="telas/extraordinario.php"><img src="imagens/extraordinario.jpg" alt="Cartaz do filme Extraordinário" width="250px"></a>
       <h1>Extraordinário</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/gente_grande.png" alt="Cartaz do filme Gente Grande" width="250px">
+      <a href="telas/genteGrande.php"><img src="imagens/gente_grande.png" alt="Cartaz do filme Gente Grande" width="250px"></a>
       <h1>Gente Grande</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/toy_story.webp" alt="Cartaz do filme Toy Story" width="250px">
+      <a href="telas/toyStory.php"><img src="imagens/toy_story.webp" alt="Cartaz do filme Toy Story" width="250px"></a>
       <h1>Toy Story</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/as_branquelas.jpg" alt="Cartaz do filme As Branquelas" width="250px" height="368px">
+      <a href="telas/branquelas.php"><img src="imagens/as_branquelas.jpg" alt="Cartaz do filme As Branquelas" width="250px" height="368px"></a>
       <h1>As Branquelas</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/super_girl.png" alt="Cartaz do filme Super Girl" width="270px" height="368px">
+      <a href="telas/superGirl.php"><img src="imagens/super_girl.png" alt="Cartaz do filme Super Girl" width="270px" height="368px"></a>
       <h1>Super Girl</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/grinch.jpg" alt="Cartaz do filme O Grinch" width="232px" height="368px">
+      <a href="telas/grinch.php"><img src="imagens/grinch.jpg" alt="Cartaz do filme O Grinch" width="232px" height="368px"></a>
       <h1>O Grinch</h1>
     </div>
   </div>
@@ -63,25 +63,25 @@
       <h1>O Drama</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/diabo_prada.webp" alt="Cartaz do filme O Diabo Veste Prada 2" width="250px">
+      <a href="telas/diabo-veste-prada.php"><img src="imagens/diabo_prada.webp" alt="Cartaz do filme O Diabo Veste Prada 2" width="250px"></a>
       <h1>O Diabo <br> Veste Prada 2</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/estranhos.webp" alt="Cartaz do filme Os Estranhos" width="250px">
+      <a href="telas/os_estranhos.php"><img src="imagens/estranhos.webp" alt="Cartaz do filme Os Estranhos" width="250px"></a>
       <h1>Os Estranhos <br> </h1>
       <h3>capítulo final</h3>
     </div>
     <div class="container md-2">
-      <img src="imagens/lua_nova.webp" alt="Cartaz do filme A Saga Crepúsculo: Lua Nova" width="250px">
+      <a href="telas/crepusculo.php"><img src="imagens/lua_nova.webp" alt="Cartaz do filme A Saga Crepúsculo: Lua Nova" width="250px"></a>
       <h1>Crepúsculo: <br></h1>
       <h3>Lua Nova</h3>
     </div>
     <div class="container md-2">
-      <img src="imagens/super-mario.jpg" alt="Cartaz do filme Super Mário" width="270px">
+      <a href="telas/superMario.php"><img src="imagens/super-mario.jpg" alt="Cartaz do filme Super Mário" width="270px"></a>
       <h1>Super Mário</h1>
     </div>
     <div class="container md-2">
-      <img src="imagens/michael.jpg" alt="Cartaz do filme Michel" width="232px">
+      <a href="telas/michael.php"><img src="imagens/michael.jpg" alt="Cartaz do filme Michel" width="232px"></a>
       <h1>Michael</h1>
     </div>
   </div>

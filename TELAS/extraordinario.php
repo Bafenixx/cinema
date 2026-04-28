@@ -27,18 +27,18 @@
 
   <!-- Corpo do site -->
 
-  <img src="../imagens/o-drama-filme-1.jpg" class="filmes" alt="Cartaz do filme O Drama" width="500px"> 
+  <img src="../imagens/extraordinario.jpg" class="filmes" alt="Cartaz do filme O Extraordinário" width="500px"> 
   
   <div class="card bg-transparent" style="width: 31rem;">
   <div class="card-body">
-    <p class="card-text">Em O Drama, apaixonados e no meio dos últimos preparativos para o grande dia do casamento,
-    o casal entra em conflito ao descobrirem segredos que jamais poderiam imaginar.
-    A imprevisibilidade do acontecimento coloca em risco toda a confiança e amor dos dois,
-    trazendo ao longa uma nova perspectiva
-    sobre o romantismo.
-    Intrigados com a situação, eles passam a se perguntar se realmente conhecem um ao outro
-    e precisam refletir sobre o futuro dos dois.<br><br>
-    Classificação indicativa 16 Anos. Contém conteúdo sexual, drogas, temas sensíveis.</p>
+    <p class="card-text">Auggie Pullman é um garoto que nasceu com uma deformidade facial 
+e precisou passar por 27 cirurgias plásticas. Aos 10 anos, 
+ele começa finalmente a frequentar uma escola regular, 
+como qualquer outra criança, pela primeira vez. No quinto ano, 
+ele precisa se esforçar para conseguir se encaixar em sua nova realidade.
+ <br><br>
+ Verificar classificação indicativa.
+</p>
   </div>
 </div>
 
