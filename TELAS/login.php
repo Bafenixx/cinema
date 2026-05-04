@@ -1,3 +1,11 @@
+<?php 
+    namespace Projeto\telas;
+    require_once("../DAO/login.php");
+    require_once("../DAO/cadastro.php");
+    use Projeto\DAO\Login;
+    use Projeto\DAO\Cadastro;
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -10,7 +18,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="icon" href="../imagens/ticket_login.png"/>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="body_login">
@@ -21,6 +30,7 @@
         <a href="filmes.php">Filmes</a>
         <a href="cadastro.php">Cadastro</a>
         <a href="login.php">Login</a>
+        <a href="adm.php">Administrador</a>
       </div>
     </div>
   </nav>
@@ -35,8 +45,33 @@
     <label>Seu E-mail: </label>
     <input type="email" name="email" id="email"/><br><br>
     <label>Sua senha: </label>
-    <input type="password" name="senha" id="senha"/><br><br>
-    <button type="submit">Entrar</button><br><br>
+    <input type="text" name="senha" id="senha"/><br><br>
+    <button type="submit" name="btnEntrar">Entrar
+
+    <?php
+      try{
+          if (isset($_POST['btnEntrar'])) {
+          $email           = $_POST['email']; 
+          $senha           = $_POST['senha']; 
+          $emailCadastrado = $_POST['emailCadastrado'];
+          $senhaCadastrada = $_POST['senhaCadastrada'];
+
+          session_start();
+
+          $cadastro = new Cadastro($email, $senha, $_SESSION['emailCadastrado'], $_SE['senhaCadastrada']);
+
+          if($_SESSION['senhaCadastrada'] == $senha && $_SESSION['emailCadastrado'] == $email){
+            header('location: filmes.php');
+          }else{
+            echo "Usuário ou senha incorreto!";
+          }
+          }
+      }catch(Except $erro){
+          echo "Algo deu errado! <br<br> $erro";
+      }
+    ?>
+
+    </button><br><br>
     <p>Não é cadastrado? <a href="cadastro.php">Cadastra-se</a></p>
   </form>
 

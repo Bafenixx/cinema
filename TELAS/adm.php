@@ -29,41 +29,6 @@
 
   <!-- Corpo do site -->
 
-  <img src="../imagens/toy_story.webp" class="filmes" alt="Cartaz do filme Toy Story 5" width="500px">
-
-  <div class="card bg-transparent" style="width: 31rem;">
-    <div class="card-body">
-      <p class="card-text">O trabalho de Buzz, Woody, Jessie e do resto da turma fica exponencialmente mais difícil
-        quando eles enfrentam uma nova ameaça na hora da brincadeira.
-        <br><br>
-        Verificar classificação indicativa.
-      </p>
-    </div>
-  </div>
-
-  <div class="horarios">
-    <h1 style="color: rgb(2, 24, 72);">Horários do dia</h1>
-    <h3>HOJE <br> 04/Mai</h3><br><br><br>
-    <h6>2D · Dublado · Sala 6</h6>
-    <button class="b_filme"><a href="sala6.php"> Hoje, 04 Mai <br> 18:50 </a></button><br><br><br><br><br>
-    <h6>2D · Dublado · Sala 7</h6>
-    <button class="b_filme"><a href="sala7.php"> Hoje, 04 Mai <br> 15:50 </a></button><br><br><br><br><br>
-
-    <div class="d-flex">
-      <img src="../imagens/icone_d-box.png" alt="Ícone do d-box" width="50px" height="30px">
-      <p class="texto-normal" style="margin-left: 10px;">Poltronas com movimento.</p>
-    </div><br>
-    <div class="d-flex">
-      <img src="../imagens/logo-bradesco-prime.png" alt="Ícone do d-box" width="50px" height="30px">
-      <p class="texto-normal" style="margin-left: 10px;">Atendimento exclusivo e ambiente diferenciado.</p>
-    </div>
-    <div class="d-flex">
-      <img src="../imagens/imax.png" alt="Ícone do d-box" width="50px" height="30px">
-      <p class="texto-normal" style="margin-left: 10px;">A melhor tela com tecnologia 4k.</p>
-    </div>
-
-  </div>
-
   <!-- FOOTER -->
   <footer>
     <!-- Propagandas -->

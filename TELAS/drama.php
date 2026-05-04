@@ -10,7 +10,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="icon" href="../imagens/ticket_login.png"/>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="body_sobre_filmes">
@@ -21,35 +22,36 @@
         <a href="filmes.php">Filmes</a>
         <a href="cadastro.php">Cadastro</a>
         <a href="login.php">Login</a>
+        <a href="adm.php">Administrador</a>
       </div>
     </div>
   </nav>
 
   <!-- Corpo do site -->
 
-  <img src="../imagens/o-drama-filme-1.jpg" class="filmes" alt="Cartaz do filme O Drama" width="500px"> 
-  
+  <img src="../imagens/o-drama-filme-1.jpg" class="filmes" alt="Cartaz do filme O Drama" width="500px">
+
   <div class="card bg-transparent" style="width: 31rem;">
-  <div class="card-body">
-    <p class="card-text">Em O Drama, apaixonados e no meio dos últimos preparativos para o grande dia do casamento,
-    o casal entra em conflito ao descobrirem segredos que jamais poderiam imaginar.
-    A imprevisibilidade do acontecimento coloca em risco toda a confiança e amor dos dois,
-    trazendo ao longa uma nova perspectiva
-    sobre o romantismo.
-    Intrigados com a situação, eles passam a se perguntar se realmente conhecem um ao outro
-    e precisam refletir sobre o futuro dos dois.<br><br>
-    Classificação indicativa 16 Anos. Contém conteúdo sexual, drogas, temas sensíveis.</p>
+    <div class="card-body">
+      <p class="card-text">Em O Drama, apaixonados e no meio dos últimos preparativos para o grande dia do casamento,
+        o casal entra em conflito ao descobrirem segredos que jamais poderiam imaginar.
+        A imprevisibilidade do acontecimento coloca em risco toda a confiança e amor dos dois,
+        trazendo ao longa uma nova perspectiva
+        sobre o romantismo.
+        Intrigados com a situação, eles passam a se perguntar se realmente conhecem um ao outro
+        e precisam refletir sobre o futuro dos dois.<br><br>
+        Classificação indicativa 16 Anos. Contém conteúdo sexual, drogas, temas sensíveis.</p>
+    </div>
   </div>
-</div>
 
   <div class="horarios">
     <h1 style="color: rgb(2, 24, 72);">Horários do dia</h1>
-    <h3>HOJE <br> 29/Abr</h3><br><br><br>
+    <h3>HOJE <br> 04/Mai</h3><br><br><br>
     <h6>2D · Dublado · Sala 6</h6>
-    <button class="b_filme"><a href="sala6.php"> Hoje, 29 Abr <br> 18:50 </a></button><br><br><br><br><br>
+    <button class="b_filme"><a href="sala6.php"> Hoje, 04 Mai <br> 18:50 </a></button><br><br><br><br><br>
     <h6>2D · Dublado · Sala 7</h6>
-    <button class="b_filme"><a href="sala7.php"> Hoje, 29 Abr <br> 15:50 </a></button><br><br><br><br><br>
-    
+    <button class="b_filme"><a href="sala7.php"> Hoje, 04 Mai <br> 15:50 </a></button><br><br><br><br><br>
+
     <div class="d-flex">
       <img src="../imagens/icone_d-box.png" alt="Ícone do d-box" width="50px" height="30px">
       <p class="texto-normal" style="margin-left: 10px;">Poltronas com movimento.</p>

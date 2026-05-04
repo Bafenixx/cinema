@@ -23,7 +23,7 @@ create table cliente(
 	codigo int not null primary key auto_increment,
     nome varchar(150) not null,
     dtNascimento date not null,
-    telefone bigint(17) not null
+    email varchar(150) not null
 )engine = InnoDB;
 
 create table compras(
